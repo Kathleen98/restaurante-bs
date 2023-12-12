@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./main.css">
-    <title text-colored>Document</title text-colored>
+    <title text-colored>Restaurante</title text-colored>
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
             <h1 class="navbar-brand m-0 section-title text-colored">Nome do restaurante</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                <span class="text-colored" class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex ">
@@ -49,7 +49,7 @@
         </div>
     </header>
     
-    <div class="" data-bs-spy="scroll" data-bs-target="cabecalho">
+    <div class="" data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
         <section class="sobre-o-restaurante" id="sobre-o-restaurante">
             <div  class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -81,7 +81,7 @@
                         <div class="col-md-5">
                             <img src="./img/restaurante.jpg" class="d-block w-100 rounded" alt="">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-3 mt-md-0">
                             <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur pariatur esse quod quibusdam iste, omnis consequuntur illum sint, optio delectus voluptate? Quis sit iusto harum similique impedit eos odio ipsum!
@@ -349,7 +349,7 @@
                     <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 mb-5">
                         <form>
                             <div class="mb-3">
                                 <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
