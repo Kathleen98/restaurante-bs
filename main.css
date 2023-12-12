@@ -6,14 +6,15 @@ body{
     background: #e15f41;
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background: #FFF;
     color: #e15f41;
 }
 
-.nav .nav-link, 
+#cabecalho .nav .nav-link, 
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
     color: #FFF;
 }
 
@@ -26,10 +27,20 @@ body{
     font-family: 'Pacifico', cursive;
 }
 
-#sobre-o-restaurante{
+#sobre-o-restaurante,
+#cardapio{
     background: #ffeae6;
 }
 
 .text-colored{
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active{
+    background: #e15f41;
+    color: #FFF;
+}
+
+.nav-cardapio .nav-link:hover{
     color: #e15f41;
 }
