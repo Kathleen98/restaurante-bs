@@ -46,5 +46,5 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma
 
 ---
 
-**Acesse o projeto: [Restaurante Fokus](https://restaurante-bs-seven.vercel.app/)**
+**Acesse o projeto: [Restaurante](https://restaurante-bs-seven.vercel.app/)**
 
